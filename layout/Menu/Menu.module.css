@@ -42,7 +42,13 @@
 	border-left: 1px solid #DFDFDF;
 }
 
+.secondLevelBlock {
+	display: none;
+}
+
 .secondLevelBlockOpened:last-child {
+	display: block;
+
 	margin-bottom: 20px;
 }
 
